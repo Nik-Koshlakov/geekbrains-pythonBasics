@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+workspace.xml
+vcs.xml
 .Python
 build/
 develop-eggs/
@@ -136,6 +138,5 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-less1/.idea/vcs.xml
-less1/.idea/workspace.xml
+less1/
 less3/
