@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 workspace.xml
+vcs.xml
 .Python
 build/
 develop-eggs/
