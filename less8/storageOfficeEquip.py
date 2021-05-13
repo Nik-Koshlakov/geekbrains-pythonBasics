@@ -96,12 +96,6 @@ class StorageOfficeEquip:
                     self.__checkNumber(data[1], data[2], data[3])
                     self.__checkBool(data[0], data[3])
                     eq = Xerox(data[0], Xerox.__name__, data[1], data[2], self.__str2bool(data[3]))
-                """if not InputNumberError.is_number(data[1]) \
-                        or not InputNumberError.is_number(data[2]) \
-                        or not InputNumberError.is_number(data[3]):
-                    raise InputNumberError('Размерность введена некорректно')
-                if not self.__str2bool(data[0]) or not self.__str2bool(data[6]):
-                    raise ValueError('Булево значение введено неверно')"""
             except InputNumberError as e:
                 print(e)
             except ValueError as e:
