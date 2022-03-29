@@ -138,5 +138,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+<<<<<<< HEAD
 less1/
 less3/
+=======
+less2/
+>>>>>>> less3
